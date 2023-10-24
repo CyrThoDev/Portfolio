@@ -1,8 +1,12 @@
+'use client'
 import React from 'react'
+import { useState, useEffect } from 'react'
+import Header from '@/components/Header'
 
 const projets = () => {
+  const [task,setTask]= useState("")
   return (
-    <div>projets</div>
+    <div><Header /></div>
   )
 }
 
