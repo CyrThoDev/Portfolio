@@ -4,7 +4,7 @@ import Link from 'next/link'
 function apropos() {
   return (
     <>
-    <div>C'est une test sur A propos</div>
+    <div>Une page de test sur A propos</div>
     <Link href="/">Retour</Link>
     </>
   )
