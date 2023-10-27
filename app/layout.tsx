@@ -1,13 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
-// import {Arapey} from '@next/font/google'
+import { Arapey } from '@next/font/google'
 
-// const arapey=Arapey({
-//   subsets :['latin'],
-//   style :['normal'],
-//   variable :'--font-arapey',
-//   weight : ['400'],
-// })
+const arapey = Arapey({
+  subsets :['latin'],
+  // style :['normal'],
+  // variable :'--font-arapey',
+  weight : ['400'],
+})
 
 export const metadata: Metadata = {
   title: 'Cyrielle Thomas - Développeur web freelance ',
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className =" bg-background font-arapey">{children}</body>
+      <body className ={`${arapey.className} bg-background text-xl`}>{children}</body>
     </html>
   )
 }

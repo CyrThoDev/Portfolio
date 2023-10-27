@@ -12,10 +12,11 @@ const Header = () => {
       width={100}
       height={100}
       alt="Logo"
+      className="ml-8 pt-4"
     /></Link>
-    <div className="flex gap-2 mr-20 items-center">
+    <div className="flex gap-4 mr-20 items-center">
     <Link href="/prestations">Prestations</Link>
-    <Link href="/projets">Projets</Link>
+    <Link href="/projets">Portfolio</Link>
     <Link href="/apropos">A propos</Link>
     </div>
     </div>

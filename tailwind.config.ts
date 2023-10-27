@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         'background': '#fdf4f0',
+        'orange':"#E19251",
+        'red' : "#D16565",
       },
       // fontFamily :{
       //   arapey : ['var(--font-arapey'],
