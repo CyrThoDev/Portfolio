@@ -12,8 +12,8 @@ const Header = () => {
         <p>07 61 15 09 13</p>
       </div>
       <div className="py-4 flex flex-row gap-4">
-        <Link href="www.facebook.com/cyrwebdev"><BsFacebook /></Link>
-        <Link href="www.instagram.com/cyr_webdev"><FaInstagramSquare/></Link>
+        <a href="https://www.facebook.com/cyrwebdev" target="_blank"><BsFacebook /></a>
+        <a href="https://www.instagram.com/cyr_webdev"target="_blank"><FaInstagramSquare/></a>
       </div>
       
     </div>
