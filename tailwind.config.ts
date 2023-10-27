@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         'background': '#fdf4f0',
       },
+      fontFamily :{
+        arapey : ['var(--font-arapey'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
