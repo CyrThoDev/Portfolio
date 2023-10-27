@@ -1,10 +1,22 @@
 import React from "react"
 import Link from 'next/link'
 import Image from 'next/image'
-
+import {BsFacebook}from 'react-icons/bs'
+import {FaInstagramSquare} from 'react-icons/fa'
 const Header = () => {
   return (
     <>
+    <div className="bg-red text-white flex flex-row justify-between px-10">
+      <div className=" py-4 flex flex-row gap-4">
+        <p className="">cyriellethomas.pro@gmail.com</p>
+        <p>07 61 15 09 13</p>
+      </div>
+      <div className="py-4 flex flex-row gap-4">
+        <Link href="www.facebook.com/cyrwebdev"><BsFacebook /></Link>
+        <Link href="www.instagram.com/cyr_webdev"><FaInstagramSquare/></Link>
+      </div>
+      
+    </div>
     <div className='flex flex-row 0 justify-between bg-background'>
     <Link href="/">
     <Image
