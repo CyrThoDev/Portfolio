@@ -1,11 +1,8 @@
 import React from "react";
 import HeaderSecondaire from "@/components/HeaderSecondaire";
 import Link from "next/link";
-import { getProjects } from "../api/route";
 
 export default async function Porfolio() {
-  const projets = await getProjects();
-
   return (
     <>
       <div className="flex flex-col">
