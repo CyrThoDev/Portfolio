@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   description: "Création de site web sur-mesure",
   openGraph: {
-    images: "https://ibb.co/PDw9xyC",
+    images: "https://ibb.co/nn1fN9B",
   },
 };
 
