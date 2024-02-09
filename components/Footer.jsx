@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="text-white flex flex-row justify-around items-center bg-black mt-28 p-10 pt-5 ">
       <div className="flex w-1/3">
         <p>
-          Je suis située à Mimizan dans les Landes mais je suis très à l'aise
-          avec le travail à distance et je mettrai tous les outils à votre
-          disposition pour que notre collaboration se passe comme si nous étions
-          à côté!{" "}
+          // eslint-disable-next-line react/no-unescaped-entities Je suis située
+          à Mimizan dans les Landes mais je suis très à l'aise avec le travail à
+          distance et je mettrai tous les outils à votre disposition pour que
+          notre collaboration se passe comme si nous étions à côté!{" "}
         </p>
       </div>
       <div className="py-4 flex flex-col gap-4">

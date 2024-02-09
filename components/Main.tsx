@@ -78,12 +78,13 @@ const Main = () => {
       />
       <div className="flex flex-col gap-4 text-center tablet:items-center mt-10">
         <p>
-          Vous avez êtes une entreprise et avez besoin d'un prestataire
-          ponctuel?
+          // eslint-disable-next-line react/no-unescaped-entities Vous avez êtes
+          une entreprise et avez besoin d'un prestataire ponctuel?
         </p>
         <p>
-          Vous êtes un particulier ou un professionnel et avez besoin d'un site
-          web pour votre activité{" "}
+          // eslint-disable-next-line react/no-unescaped-entities Vous êtes un
+          particulier ou un professionnel et avez besoin d'un site web pour
+          votre activité{" "}
         </p>
         <p className="tracking-widest text-4xl text-red m-8 px-8  ">
           Concrétisons ensemble vos projets !{" "}
